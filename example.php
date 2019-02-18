@@ -17,5 +17,5 @@ query_bitsocket((object) [
         'limit' => 10
     ]
 ], function($data) {
-	print(json_encode($data));
+    print(json_encode($data));
 });
